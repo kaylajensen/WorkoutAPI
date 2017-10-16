@@ -1,0 +1,24 @@
+{
+  "name": "workoutapi",
+  "version": "1.0.0",
+  "description": "RESTful workoutAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Kayla Jensen",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "1.9.x",
+    "express": "^4.16.2",
+    "minimist": "*",
+    "mongoose": "^4.12.1",
+    "nodemon": "^1.12.1",
+    "swagger-jsdoc": "^1.3.0",
+    "swagger-node-express": "~2.0"
+  }
+}
